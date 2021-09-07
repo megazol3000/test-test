@@ -21,6 +21,13 @@ a:active {
   outline: none;
 }
 
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 nav,
 footer,
 header,
@@ -171,6 +178,10 @@ footer a {
   font-size: 14px;
   color: #fff;
   border-radius: 3px;
+}
+
+body {
+  position: relative;
 }
 
 .begin-test,
